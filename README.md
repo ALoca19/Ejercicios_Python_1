@@ -42,7 +42,25 @@ Calcula el area de un circulo. El usuario te dara el radio.
 - Entrada:
 - Salida esperada:
 
-### Ejercicio 1: Calcula el area de un circulo
+### Ejercicio 2: Ordena una lista de manera ascendente
+
+**Descripción:**  
+Ordena un lista de numeros dada por el usuario, el usuario puede insertar N numeros en la misma linea. Debes ordenarlos de forma ascendente y muestra el resultado en una linea.
+
+**Dificultad:** ⭐ Fácil
+
+**Pistas:**
+
+- Usa `input()` para pedir los números
+- `.split()` te puede ayudar a separar los valores de la cadena introducida
+- `sorted()` te puede ayudar en este caso
+
+**Prueba:**
+
+- Entrada: 1 9 5 7 3
+- Salida esperada: 1 3 5 7 9
+
+### Ejercicio 1: Calcula el factorial de un numero
 
 **Descripción:**  
 Calcula el area de un circulo. El usuario te dara el radio.
