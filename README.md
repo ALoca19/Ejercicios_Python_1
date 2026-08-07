@@ -127,25 +127,115 @@ Introduce la edad del perro y calcula su equivalente en años humanos.
 
 ## 🟢 Ejercicios Intermedios
 
-### Ejercicio 1: Cuantos años tiene un perro
+### Ejercicio 1: Anagrama
 
 **Descripción:**  
-Calcula la edad de un perro, acorde a las siguientes caracteristicas:
+Se considera anagrama aquella cadena que tenga los mismos caracteres que otra aunque esten desordenados. Ejemplo:
 
-- El primer año del perro equivale a 15 años humanos
-- El segundo año equivale a 9 años humanos
-- Del tercer año al sexto año, cada uno equivale a 4 años humanos
-- A partir del 7mo cada año equivale a 5 años humanos
+- amor:roma
+- 582:258
+- gato:toga
+- 16:61
 
-Introduce la edad del perro y calcula su equivalente en años humanos.
+Introduce dos numeros e identifica si son anagramas.
 
-**Dificultad:** ⭐ Fácil
+Puedes aumentar la dificultad del reto:
+
+- Opcion1: Que el usuario introduzca cuantas cadenas quiere introducir y cuenta cuantas de esas cadenas son anagramas
+- Opcion2: El usuario puede introducir tanto numeros como palabras para encontrar si son anagramas
+
+La solucion de este ejercicio representa la Opcion 1
+
+**Dificultad:** ⭐⭐ Medio
 
 **Pistas:**
 
-- `If` suele usarse para condiciones
+- `sorted()` es un aliado para acomodar numeros
 
 **Prueba:**
 
-- Entrada: 10
-- Salida esperada: 60
+- Entrada: 546 645
+- Salida esperada: True
+
+Opcion 1 (La solucion que se da es para la opcion 1):
+
+- Entrada:
+  3
+  548 854
+  4567 6574
+  2345 2874
+- Salida esperada: 2
+
+Opcion 2:
+
+- Entrada:
+  2
+  roma amor
+  2345 2874
+- Salida esperada: 1
+
+### Ejercicio 2: Ataque del caballo
+
+**Descripción:**  
+En ajedrez el caballo se mueve en L.
+
+El usuario introducira la posicion del caballo y despues la posicion de las piezas del oponente, calcula cuales piezas son atacadas por tu caballo.
+
+Teniendo un tablero de a-h (columnas) y a-8 (filas)
+
+**Dificultad:** ⭐⭐ Medio
+
+**Pistas:**
+
+- `abs()` te permite obtener un entero
+- `ord()` te permite pasar letras a su equivalente numerico
+- El caballo siempre se movera dos casillas al frente y una al lado
+- Piensalo como posiciones enteras y la diferencia que puede haber
+
+**Prueba:**
+
+- Entrada:
+  d 4 Posicion de tu caballo en el tablero
+  6 Fichas de tu contrincante
+  c 2 posicion de cada ficha
+  e 6
+  a 1
+  f 5
+  d 5
+  b 3
+- Salida esperada: 4
+
+### Ejercicio 3: Propagacion
+
+**Descripción:**  
+En un vecindario representado como una cuadrícula de casas de altura H y ancho W, algunas casas empiezan pintadas de gris.
+
+Cada mes ocurre lo siguiente:
+Todas las casas que estén justo al lado (arriba, abajo, izquierda o derecha) de una casa ya pintada de gris, se pintan también de gris.
+Este proceso se repite mes tras mes.
+
+Dada la cantidad total de casas que se quieren pintar de gris (N) y las posiciones de las casas que ya están grises al inicio, calcula cuántos meses se necesitan para que al menos N casas estén pintadas de gris.
+Entrada:
+
+- Primera línea: dos números enteros H y W (altura y ancho del vecindario).
+- Segunda línea: un número entero N (cantidad de casas grises que se desean alcanzar).
+- Tercera línea: un número entero M (cantidad de casas que ya están grises al inicio).
+- Las siguientes M líneas: dos números X e Y que indican la fila y la columna de cada casa ya pintada de gris (las posiciones empiezan en 1).
+
+Cada mes se propaga, cuantos meses se tardara en tener N casas grises
+
+**Dificultad:** ⭐⭐ Medio
+
+**Pistas:**
+
+- Es un problema de propagacion, considera que debes tener el vecindario base con las primeras casas pintadas, una que se modifique acorde a la propacacion.
+- Ten cuidado al realizar la propagacion no actualizes el vecindario sobre el calculo o se seguira propagando.
+
+**Prueba:**
+
+- Entrada:
+  2 3
+  4
+  1
+  1 1
+- Salida esperada: 2
