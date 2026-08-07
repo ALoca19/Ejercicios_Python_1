@@ -13,16 +13,16 @@ Claro que si eres mas avanzado puedes usarlas y compartir tu proceso.
 ## 📚 Índice
 
 - [Ejercicios Básicos](#-ejercicios-básicos)
-  - [Ejercicio 1: ...](#ejercicio-1-)
-  - [Ejercicio 2: ...](#ejercicio-2-)
-  - [Ejercicio 3: ...](#ejercicio-3-)
-  - [Ejercicio 4: ...](#ejercicio-4-)
-  - [Ejercicio 5: ...](#ejercicio-5-)
-  - [Ejercicio 5: ...](#ejercicio-6-)
+  - [Ejercicio 1: Calcula el area de un circulo](#ejercicio-1-calcula-el-area-de-un-circulo)
+  - [Ejercicio 2: Ordena una lista de manera ascendente](#ejercicio-2-ordena-una-lista-de-manera-ascendente)
+  - [Ejercicio 3: Calcula el factorial de un numero](#ejercicio-3-calcula-el-factorial-de-un-numero)
+  - [Ejercicio 4: Contando caracters](#ejercicio-4-contando-caracters)
+  - [Ejercicio 5: Cuantos años tiene un perro](#ejercicio-5-cuantos-años-tiene-un-perro)
+  - [Ejercicio 6: Suma de pares e impares](#ejercicio-6-suma-de-pares-e-impares)
 - [Ejercicios Intermedios](#-ejercicios-intermedios)
-  - [Ejercicio 1: ...](#ejercicio-1-)
-  - [Ejercicio 2: ...](#ejercicio-2-)
-  - [Ejercicio 3: ...](#ejercicio-3-)
+  - [Ejercicio 1: Anagrama](#ejercicio-1-anagrama)
+  - [Ejercicio 2: Ataque del caballo](#ejercicio-2-ataque-del-caballo)
+  - [Ejercicio 3: Propagacion](#ejercicio-3-propagacion)
 - [Cómo contribuir](#-cómo-contribuir)
 
 ---
@@ -140,14 +140,21 @@ Dado un numero introducido suma cada numero par dentro de ese numero y cada nume
 **Prueba:**
 
 - Entrada:
+
   13579
+
 - Salida esperada:
+
   Suma par: 0
+
   Suma impar: 25
 
 - Entrada:
+
   12345
+
 - Salida esperada:
+
   Suma par: 6
   Suma impar: 9
 
@@ -186,18 +193,26 @@ La solucion de este ejercicio representa la Opcion 1
 Opcion 1 (La solucion que se da es para la opcion 1):
 
 - Entrada:
+
   3
+
   548 854
+
   4567 6574
+
   2345 2874
+
 - Salida esperada: 2
 
 Opcion 2:
 
 - Entrada:
   2
+
   roma amor
+
   2345 2874
+
 - Salida esperada: 1
 
 ### Ejercicio 2: Ataque del caballo
@@ -205,7 +220,13 @@ Opcion 2:
 **Descripción:**  
 En ajedrez el caballo se mueve en L.
 
-El usuario introducira la posicion del caballo y despues la posicion de las piezas del oponente, calcula cuales piezas son atacadas por tu caballo.
+Entrada que vas a recibir:
+
+- Posicion de tu caballo en el tablero
+- Numero de fichas de tu contrincante
+- posicion de cada ficha
+
+calcula cuales piezas son atacadas por tu caballo.
 
 Teniendo un tablero de a-h (columnas) y a-8 (filas)
 
@@ -221,14 +242,23 @@ Teniendo un tablero de a-h (columnas) y a-8 (filas)
 **Prueba:**
 
 - Entrada:
-  d 4 Posicion de tu caballo en el tablero
-  6 Fichas de tu contrincante
-  c 2 posicion de cada ficha
+
+  d 4
+
+  6
+
+  c 2
+
   e 6
+
   a 1
+
   f 5
+
   d 5
+
   b 3
+
 - Salida esperada: 4
 
 ### Ejercicio 3: Propagacion
@@ -260,10 +290,15 @@ Cada mes se propaga, cuantos meses se tardara en tener N casas grises
 **Prueba:**
 
 - Entrada:
+
   2 3
+
   4
+
   1
+
   1 1
+
 - Salida esperada: 2
 
 ## 🤝 Cómo contribuir
