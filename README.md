@@ -22,8 +22,6 @@ Claro que si eres mas avanzado puedes usarlas y compartir tu proceso.
   - [Ejercicio 1: ...](#ejercicio-1-)
   - [Ejercicio 2: ...](#ejercicio-2-)
   - [Ejercicio 3: ...](#ejercicio-3-)
-  - [Ejercicio 4: ...](#ejercicio-4-)
-  - [Ejercicio 5: ...](#ejercicio-5-)
 - [Cómo contribuir](#-cómo-contribuir)
 
 ---
@@ -239,3 +237,34 @@ Cada mes se propaga, cuantos meses se tardara en tener N casas grises
   1
   1 1
 - Salida esperada: 2
+
+## 🤝 Cómo contribuir
+
+¡Las contribuciones son bienvenidas! Puedes ayudar de las siguientes formas:
+
+- Añadir nuevos ejercicios (básicos, intermedios o avanzados)
+- Mejorar los enunciados o añadir más pistas
+- Corregir errores
+- Añadir ejemplos adicionales de entrada/salida
+- Mejorar este README
+
+### Pasos para contribuir:
+
+1. Haz un **Fork** de este repositorio
+2. Crea una nueva rama:
+
+   ```bash
+   git checkout -b nombre-de-tu-rama
+
+   ```
+
+3. Realiza tus cambios y haz commit:
+   add .
+   git commit -m "Añadí ejercicio de ..."
+
+4. Sube tus cambios:
+   push origin nombre-de-tu-rama
+
+5. Abre un Pull Request explicando qué añadiste o modificaste.
+
+Si tienes dudas o quieres proponer un ejercicio, puedes abrir un Issue.
