@@ -18,6 +18,7 @@ Claro que si eres mas avanzado puedes usarlas y compartir tu proceso.
   - [Ejercicio 3: ...](#ejercicio-3-)
   - [Ejercicio 4: ...](#ejercicio-4-)
   - [Ejercicio 5: ...](#ejercicio-5-)
+  - [Ejercicio 5: ...](#ejercicio-6-)
 - [Ejercicios Intermedios](#-ejercicios-intermedios)
   - [Ejercicio 1: ...](#ejercicio-1-)
   - [Ejercicio 2: ...](#ejercicio-2-)
@@ -122,6 +123,33 @@ Introduce la edad del perro y calcula su equivalente en años humanos.
 
 - Entrada: 10
 - Salida esperada: 60
+
+### Ejercicio 6: Suma de pares e impares
+
+**Descripción:**  
+Dado un numero introducido suma cada numero par dentro de ese numero y cada numero impar. Imprime la suma total de los numeros impares y la de los partes
+
+**Dificultad:** ⭐ Facil
+
+**Pistas:**
+
+- Cuando le pides un dato al usuario se guarda como cadena, aprovecha esa estructura antes de pensar pasar el numero a entero
+- `list()` te puede ayudar a guardar los caracteres de una palabra
+- Para identificar si un numero es par puedes usar `%` para ver si es resultado de la divicion es 0
+
+**Prueba:**
+
+- Entrada:
+  13579
+- Salida esperada:
+  Suma par: 0
+  Suma impar: 25
+
+- Entrada:
+  12345
+- Salida esperada:
+  Suma par: 6
+  Suma impar: 9
 
 ## 🟢 Ejercicios Intermedios
 
